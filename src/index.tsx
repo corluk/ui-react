@@ -13,15 +13,17 @@ import { RouterProvider } from "react-router-dom";
  import "./index.css"
  import i18n from "../locales/i18n";
 import "./index.css"
+import { RecoilRoot } from "recoil";
+
  i18n.emit("init")
 const rootElement = document.getElementById("app")
  
 const root = createRoot(rootElement!)
 
 root.render(<React.StrictMode>
-     
+    <RecoilRoot>      
                 <RouterProvider router={Router} />
-     
+                </RecoilRoot>
 </React.StrictMode>)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
  
 
