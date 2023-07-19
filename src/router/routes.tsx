@@ -1,5 +1,5 @@
 import React from "react"
-import IndexPage from "../pages/index"
+import IndexPage from "./pages/index"
 
 const routes = [{
     path: "/" , 
