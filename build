@@ -43,8 +43,10 @@ yarn add axios\
                 webpack-cli\
                 webpack-dev-server\
                 webpack-merge\
-                mongodb
+                mongodb \
+                sass \
+                sass-loader 
                
 node build.js
-
-echo "**** don't forget to delete build scripts with  'rm build*'"
+rm build* 
+echo "**** project created *** "
